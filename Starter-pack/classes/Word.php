@@ -2,7 +2,22 @@
 
 class Word
 {
+
     // TODO: add word (FR) and answer (EN) - (via constructor or not? why?)
+    public string $frenchWord;
+    private string $englishWord;
+
+    /**
+     * Word constructor.
+     * @param string $frenchWord
+     * @param string $englishWord
+     */
+    public function __construct(string $frenchWord, string $englishWord)
+    {
+        $this->frenchWord = $frenchWord;
+        $this->englishWord = $englishWord;
+    }
+
 
     public function verify(string $answer)
     {
