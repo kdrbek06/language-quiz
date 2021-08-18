@@ -12,7 +12,6 @@
     <form method="post">
         <input value="" name="userInput" type="text">
         <input value="Translate" name="submitButton" type="submit">
-        <p></p>
 
     </form>
 

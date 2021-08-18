@@ -32,7 +32,7 @@ class LanguageGame
             $randomWord = array_rand($this->words);
             $this->selectedWord = $this->words[$randomWord];
 
-            var_dump($this->selectedWord->frenchWord);
+            print_r($this->selectedWord->frenchWord);
 
         } else {
             // Option B: user has just submitted an answer
